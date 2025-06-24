@@ -3,14 +3,14 @@ package Practice1;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class DummyClass1 {
+public class DummyClassTest1 {
 
 	@Test(groups = "Smoke")
-	public void m1() {
+	public void m1Test() {
 		Reporter.log("Hello from class m1 ", true);
 	}
 	@Test(groups = "Regression")
-	public void m2() {
+	public void m2Test() {
 		Reporter.log("Hello from class m2", true);
 	}
 }
