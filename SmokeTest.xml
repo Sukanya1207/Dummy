@@ -8,8 +8,8 @@
 	</groups>
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="Pratice2.DummyClassTest2" />
-			<class name="Practice1.DummyClassTest1" />
+			<class name="Pratice2.DummyClass2Test" />
+			<class name="Practice1.DummyClass1Test" />
 		</classes>
 	</test> <!--
 	Test -->

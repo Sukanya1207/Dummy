@@ -3,7 +3,7 @@ package Pratice2;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class DummyClassTest2 {
+public class DummyClass2Test {
 	@Test(groups = "Smoke")
 	public void A1Test()
 	{
