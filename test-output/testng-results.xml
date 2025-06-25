@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Hello from test 1]]>
+    </line>
+    <line>
+      <![CDATA[Hello from class m1 ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-06-25T16:27:13 CEST" name="Suite" finished-at="2025-06-25T16:27:13 CEST" duration-ms="120">
+    <groups>
+      <group name="Smoke">
+        <method signature="DummyClassTest1.m1Test()[pri:0, instance:Practice1.DummyClassTest1@7817fd62]" name="m1Test" class="Practice1.DummyClassTest1"/>
+        <method signature="DummyClassTest2.A1Test()[pri:0, instance:Pratice2.DummyClassTest2@45c7e403]" name="A1Test" class="Pratice2.DummyClassTest2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-06-25T16:27:13 CEST" name="Test" finished-at="2025-06-25T16:27:13 CEST" duration-ms="120">
+      <class name="Practice1.DummyClassTest1">
+        <test-method signature="m1Test()[pri:0, instance:Practice1.DummyClassTest1@7817fd62]" started-at="2025-06-25T16:27:13 CEST" name="m1Test" finished-at="2025-06-25T16:27:13 CEST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hello from class m1 ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m1Test -->
+      </class> <!-- Practice1.DummyClassTest1 -->
+      <class name="Pratice2.DummyClassTest2">
+        <test-method signature="A1Test()[pri:0, instance:Pratice2.DummyClassTest2@45c7e403]" started-at="2025-06-25T16:27:13 CEST" name="A1Test" finished-at="2025-06-25T16:27:13 CEST" duration-ms="20" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hello from test 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- A1Test -->
+      </class> <!-- Pratice2.DummyClassTest2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
